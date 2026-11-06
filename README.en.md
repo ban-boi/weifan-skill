@@ -2,6 +2,8 @@
 
 # weifan · Architecture Spoon-feed Coach
 
+The default now: projects get built fast by agents, and most of the time nobody reviews the code — that's fine. But there come moments when you want some command over the project's architecture, or you start doubting the agent's choices and want more facts about what was actually implemented. Reading the code yourself is hardly feasible at the volume agents produce, and asking the agent directly — "what's the architecture here?" — works poorly too: it answers the sentence you asked, and your head is still empty afterwards. This skill is built for exactly those moments.
+
 weifan (wèifàn, 喂饭) is Chinese internet slang from "spoon-feed level tutorial" — knowledge fed to you one bite at a time. This skill turns that into an executable teaching method for AI agents: **instead of answering questions one by one, treat every question as a gap in your cognitive model, find the missing cornerstone, and repair it in dependency order — the deliverable is not an explanation, it's a model in your head that can predict the system's behavior.**
 
 ## What problem does it solve
