@@ -1,6 +1,6 @@
 # weifan · 架构喂饭模式 (Architecture Spoon-feed Coach)
 
-> **English users**: this is an architecture-coaching skill — it turns "answer my questions about this codebase" into "build a working mental model in my head, one confirmed block at a time". The full English skill is [`SKILL.en.md`](SKILL.en.md) (rename to `SKILL.md` when installing). Everything below is in Chinese.
+[English](README.en.md) | **简体中文**
 
 喂饭（wèifàn）是中文网络用语"喂饭级教程"的缩写——把知识一口一口喂到你嘴边。这个 skill 把它做成了一套可执行的架构教学法：**不逐题回答，而是把你的每个疑问当成认知体系上的缺口，找到缺失的基石，按依赖顺序补——产出不是讲解，是你脑中一座能预测系统行为的模型。**
 
@@ -74,10 +74,13 @@ skill 遵循 [Agent Skills 开放标准](https://agentskills.io/specification)�
 ## 目录
 
 ```
-SKILL.md        中文版（通用发布版）
-SKILL.en.md     英文版（安装时改名为 SKILL.md）
-EVALUATION.md   评测方法与数据
-LICENSE         MIT
+SKILL.md           中文版技能（通用发布版）
+SKILL.en.md        英文版技能（安装时改名为 SKILL.md）
+README.md          说明文档（中文）
+README.en.md       说明文档（英文）
+EVALUATION.md      评测方法与数据（中文）
+EVALUATION.en.md   评测方法与数据（英文）
+LICENSE            MIT
 ```
 
 ## License
