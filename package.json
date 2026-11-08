@@ -1,0 +1,30 @@
+{
+  "name": "weifan-skill",
+  "version": "1.1.0",
+  "description": "weifan 架构喂饭模式 —— 把 AI 问答改造成架构认知建模的 Agent Skill；npx github:ban-boi/weifan-skill 一行安装到 Claude Code / Cursor / ZCode 等客户端",
+  "bin": {
+    "weifan-skill": "install.js"
+  },
+  "files": [
+    "install.js",
+    "SKILL.md",
+    "SKILL.en.md",
+    "README.md",
+    "README.en.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "agent-skills",
+    "skill",
+    "claude-code",
+    "cursor",
+    "zcode",
+    "architecture",
+    "coaching"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ban-boi/weifan-skill"
+  }
+}

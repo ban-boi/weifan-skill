@@ -32,14 +32,24 @@
 
 ## 安装
 
-skill 遵循 [Agent Skills 开放标准](https://agentskills.io/specification)（SKILL.md + frontmatter），任何兼容客户端可直接加载：
+**一行安装**（需 Node；零依赖，只做本机文件复制）：
 
-- **ZCode**：把本目录复制到 `~/.agents/skills/weifan/`（或 `~/.zcode/skills/`）
+```bash
+npx github:ban-boi/weifan-skill
+```
+
+安装器自动检测本机的 Claude Code / Cursor / ZCode 等客户端，把技能装进各自的**用户级技能目录**（全局可用）；一个都没检测到时，装到通用位置 `~/.agents/skills/weifan/`。常用参数：`--en` 装英文版、`--list` 只看不动手、`--client=claude` 只装指定客户端、`--all` 全部候选都装。
+
+也兼容社区 skills CLI：`npx skills add ban-boi/weifan-skill`（Vercel 的开放技能生态，同样一行命令）。
+
+**手动安装**（任何支持 SKILL.md 通用技能标准的客户端）：把本目录复制到对应 skills 目录即可——
+
+- **ZCode**：`~/.agents/skills/weifan/`（或 `~/.zcode/skills/`）
 - **Claude Code**：`~/.claude/skills/weifan/`
-- **Cursor / OpenClaw / DeepSeek harness**：凡是支持 SKILL.md 通用技能标准的客户端都能直接加载，按各自 skills 目录约定放入即可
-- **英文用户**：用 `SKILL.en.md` 覆盖/替换为 `SKILL.md` 后安装
+- **Cursor / OpenClaw / DeepSeek harness**：按各自 skills 目录约定放入即可
+- **英文用户**：用 `SKILL.en.md` 覆盖/替换为 `SKILL.md`（或一行安装时加 `--en`）
 
-无脚本、无依赖、无 API key，纯指令型，装完即用。
+技能本体无依赖、无 API key，纯指令型，装完即用。
 
 ## 质量证据链
 

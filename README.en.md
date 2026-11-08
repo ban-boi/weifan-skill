@@ -30,14 +30,24 @@ The thing you don't understand is already a complex mechanism; dragging in an eq
 
 ## Install
 
-The skill follows the open [Agent Skills standard](https://agentskills.io/specification) (SKILL.md + frontmatter); any compatible client loads it directly:
+**One-liner** (requires Node; zero-dependency, just copies files locally):
 
-- **ZCode**: copy this directory to `~/.agents/skills/weifan/` (or `~/.zcode/skills/`)
+```bash
+npx github:ban-boi/weifan-skill --en
+```
+
+The installer auto-detects Claude Code / Cursor / ZCode on your machine and drops the skill into each client's **user-level skills directory** (globally available); if none is detected it falls back to `~/.agents/skills/weifan/`. Flags: `--en` install the English version (the default install is Chinese), `--list` show detected clients without writing, `--client=claude` target a single client, `--all` install everywhere.
+
+Also compatible with the community skills CLI: `npx skills add ban-boi/weifan-skill` (Vercel's open skills ecosystem, also one line).
+
+**Manual install** (any client supporting the SKILL.md standard): copy this directory into the client's skills directory —
+
+- **ZCode**: `~/.agents/skills/weifan/` (or `~/.zcode/skills/`)
 - **Claude Code**: `~/.claude/skills/weifan/`
-- **Cursor / OpenClaw / DeepSeek harness**: any client supporting the common SKILL.md skills mode can load it; place it in that client's skills directory
-- **English users**: install `SKILL.en.md` (rename it to `SKILL.md`)
+- **Cursor / OpenClaw / DeepSeek harness**: place it in that client's skills directory
+- **English users**: use `SKILL.en.md` renamed to `SKILL.md` (or add `--en` to the one-liner)
 
-No scripts, no dependencies, no API keys — pure instructions, works out of the box.
+The skill itself has no dependencies and no API keys — pure instructions, works out of the box.
 
 ## Evidence chain
 
