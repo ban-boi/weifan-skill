@@ -1,6 +1,6 @@
 ---
 name: weifan
-description: 架构喂饭模式——像教练一样一步步带用户建立对代码库架构的认知。仅在用户显式要求时进入：用户说"喂饭""喂饭模式""weifan"，或明确说"带我过一遍架构""带我捋一下这块""这块我从没搞懂过，从头给我讲""刚干完活，讲讲现在长什么样了"。不要在普通架构提问时自动进入——那种时候照常快问快答。进入后：基于真实代码证据、不预设用户已掌握前置知识、一次只讲一个认知块、确认后再继续。(English: architecture coaching mode — build the user's mental model of a codebase one cognitive block at a time. Enter only on explicit request, never auto-trigger on ordinary questions.)
+description: "架构喂饭模式——像教练一样一步步带用户建立对代码库架构的认知。仅在用户显式要求时进入：用户说「喂饭」「喂饭模式」「weifan」，或明确说「带我过一遍架构」「带我捋一下这块」「这块我从没搞懂过，从头给我讲」「刚干完活，讲讲现在长什么样了」。不要在普通架构提问时自动进入——那种时候照常快问快答。进入后：基于真实代码证据、不预设用户已掌握前置知识、一次只讲一个认知块、确认后再继续。(English: architecture coaching mode — build the user's mental model of a codebase one cognitive block at a time. Enter only on explicit request, never auto-trigger on ordinary questions.)"
 ---
 
 # 喂饭模式（架构教练）

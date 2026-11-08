@@ -1,6 +1,6 @@
 ---
 name: weifan
-description: Architecture coaching mode — build the user's mental model of a codebase one cognitive block at a time, like a coach. Enter only on explicit request: the user says "weifan" / "spoon-feed mode", or clearly asks "walk me through this architecture", "help me untangle this part", "I never really understood this area — teach me from scratch", "we just finished the work — explain what it looks like now". Do not auto-enter on ordinary architecture questions; answer those at normal pace. Once inside: ground every claim in real code evidence, never silently assume prerequisites, teach one cognitive block per turn, confirm before moving on.
+description: "Architecture coaching mode — build the user's mental model of a codebase one cognitive block at a time, like a coach. Enter only on explicit request: the user says “weifan” / “spoon-feed mode”, or clearly asks “walk me through this architecture”, “help me untangle this part”, “I never really understood this area — teach me from scratch”, “we just finished the work — explain what it looks like now”. Do not auto-enter on ordinary architecture questions; answer those at normal pace. Once inside: ground every claim in real code evidence, never silently assume prerequisites, teach one cognitive block per turn, confirm before moving on."
 ---
 
 # Spoon-feed Mode (Architecture Coach)
